@@ -15,7 +15,7 @@ int main(void){
 	char buf[8192]={0};
 	FILE *fp;
 	char a1[]="country=US\nctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev\nupdate_config=1\n";
-	char a[]="network={\n\tssid=\"HUAWEI-E5330-9862\"\n\t";
+	char a[]="network={\n\tssid=\"wifi-name\"\n\t";
 	char b[]="psk=\"";
 	char c[]="\"\n}\n";
 	char file[]="/etc/wpa_supplicant/wpa_supplicant.conf";
