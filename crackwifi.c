@@ -61,6 +61,7 @@ int main(void){
 				printf("found\n");
 				exit(0);
 			}
+			close(s);
 			continue;
 		}
 	}
