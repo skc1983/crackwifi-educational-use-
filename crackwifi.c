@@ -55,7 +55,7 @@ int main(void){
 			inet_ntop(AF_INET,&((struct sockaddr_in*)adr)->sin_addr,ip,sizeof ip);
 			system("sudo systemctl restart dhcpcd");
 			system("sleep 20");
-			printf("%d\n,z")
+			printf("%d\n",z)
 			printf("%s\n",ip);
 			if(ip[0]=='1'){
 				printf("found\n");
